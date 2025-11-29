@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSPenjualan" targetNamespace="http://tempuri.org/DSPenjualan.xsd" xmlns:mstns="http://tempuri.org/DSPenjualan.xsd" xmlns="http://tempuri.org/DSPenjualan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSPenjualan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSPenjualan" msprop:Generator_UserDSName="DSPenjualan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TLapKasir" msprop:Generator_TableClassName="TLapKasirDataTable" msprop:Generator_TableVarName="tableTLapKasir" msprop:Generator_RowChangedName="TLapKasirRowChanged" msprop:Generator_TablePropName="TLapKasir" msprop:Generator_RowDeletingName="TLapKasirRowDeleting" msprop:Generator_RowChangingName="TLapKasirRowChanging" msprop:Generator_RowEvHandlerName="TLapKasirRowChangeEventHandler" msprop:Generator_RowDeletedName="TLapKasirRowDeleted" msprop:Generator_RowClassName="TLapKasirRow" msprop:Generator_UserTableName="TLapKasir" msprop:Generator_RowEvArgName="TLapKasirRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDK" msprop:Generator_ColumnVarNameInTable="columnIDK" msprop:Generator_ColumnPropNameInRow="IDK" msprop:Generator_ColumnPropNameInTable="IDKColumn" msprop:Generator_UserColumnName="IDK" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama_Kasir" msprop:Generator_ColumnVarNameInTable="columnNama_Kasir" msprop:Generator_ColumnPropNameInRow="Nama_Kasir" msprop:Generator_ColumnPropNameInTable="Nama_KasirColumn" msprop:Generator_UserColumnName="Nama_Kasir" type="xs:string" minOccurs="0" />
+              <xs:element name="Username" msprop:Generator_ColumnVarNameInTable="columnUsername" msprop:Generator_ColumnPropNameInRow="Username" msprop:Generator_ColumnPropNameInTable="UsernameColumn" msprop:Generator_UserColumnName="Username" type="xs:string" minOccurs="0" />
+              <xs:element name="NO_TLP" msprop:Generator_ColumnVarNameInTable="columnNO_TLP" msprop:Generator_ColumnPropNameInRow="NO_TLP" msprop:Generator_ColumnPropNameInTable="NO_TLPColumn" msprop:Generator_UserColumnName="NO_TLP" type="xs:string" minOccurs="0" />
+              <xs:element name="Hak" msprop:Generator_ColumnVarNameInTable="columnHak" msprop:Generator_ColumnPropNameInRow="Hak" msprop:Generator_ColumnPropNameInTable="HakColumn" msprop:Generator_UserColumnName="Hak" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DTLapJual" msprop:Generator_TableClassName="DTLapJualDataTable" msprop:Generator_TableVarName="tableDTLapJual" msprop:Generator_TablePropName="DTLapJual" msprop:Generator_RowDeletingName="DTLapJualRowDeleting" msprop:Generator_RowChangingName="DTLapJualRowChanging" msprop:Generator_RowEvHandlerName="DTLapJualRowChangeEventHandler" msprop:Generator_RowDeletedName="DTLapJualRowDeleted" msprop:Generator_UserTableName="DTLapJual" msprop:Generator_RowChangedName="DTLapJualRowChanged" msprop:Generator_RowEvArgName="DTLapJualRowChangeEvent" msprop:Generator_RowClassName="DTLapJualRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Bulan" msprop:Generator_ColumnVarNameInTable="columnBulan" msprop:Generator_ColumnPropNameInRow="Bulan" msprop:Generator_ColumnPropNameInTable="BulanColumn" msprop:Generator_UserColumnName="Bulan" type="xs:string" minOccurs="0" />
+              <xs:element name="Modal" msprop:Generator_ColumnVarNameInTable="columnModal" msprop:Generator_ColumnPropNameInRow="Modal" msprop:Generator_ColumnPropNameInTable="ModalColumn" msprop:Generator_UserColumnName="Modal" type="xs:string" minOccurs="0" />
+              <xs:element name="Omset" msprop:Generator_ColumnVarNameInTable="columnOmset" msprop:Generator_ColumnPropNameInRow="Omset" msprop:Generator_ColumnPropNameInTable="OmsetColumn" msprop:Generator_UserColumnName="Omset" type="xs:string" minOccurs="0" />
+              <xs:element name="Laba" msprop:Generator_ColumnVarNameInTable="columnLaba" msprop:Generator_ColumnPropNameInRow="Laba" msprop:Generator_ColumnPropNameInTable="LabaColumn" msprop:Generator_UserColumnName="Laba" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
