@@ -21,7 +21,7 @@
 git clone https://github.com/fahmirizalbudi/pos.git
 cd pos
 # buka file .sln
-# pastikan mempunya Visual Code 2019 > selebihnya
+# pastikan mempunya Visual Studio 2019 > selebihnya
 # Build executable installer nya
 ```
 
