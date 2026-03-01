@@ -17,41 +17,41 @@
 
 <br />
 
-## 💵 POS
+## POS
 
 Point Of Sale (POS) is a system used to process sales transactions and simplify the cashier process in a business. Built with C# and Windows Forms. Key features include:
 
-## 🖼️ Preview
+## Preview
 
 ![](pos.png)
 
-## ✨ Features
+## Features
 
-- **🛒 Transaction Management:** Efficient processing of sales and receipts.
-- **📦 Product Management:** Real-time tracking of stock levels and product management.
-- **📊 Reporting:** Generate sales reports (daily/monthly) to monitor business performance.
-- **👥 User Management:** Role-based access control (Admin/Cashier).
-- **🖨️ Print Support:** Integration with thermal printers for receipts.
+- **Transaction Management:** Efficient processing of sales and receipts.
+- **Product Management:** Real-time tracking of stock levels and product management.
+- **Reporting:** Generate sales reports (daily/monthly) to monitor business performance.
+- **User Management:** Role-based access control (Admin/Cashier).
+- **Print Support:** Integration with thermal printers for receipts.
 
-## 👩‍💻 Tech Stack
+## Tech Stack
 
 - **C# (.NET Framework/.NET Core):** The primary programming language used for backend logic.
 - **Windows Forms (WinForms):** A UI framework for building Windows desktop applications.
 - **Visual Studio:** The Integrated Development Environment (IDE) used for development.
 - **MySQL**: An open-source relational database management system.
 
-## 📦 Getting Started
+## Getting Started
 
 To get a local copy of this project up and running, follow these steps.
 
-### 🚀 Prerequisites
+### Prerequisites
 
 - **Windows OS** (Windows 10 or 11 recommended).
 - **Visual Studio 2019/2022** with ".NET desktop development" workload installed.
 - **.NET Framework/SDK** (Match the version used in your project, e.g., .NET 6.0 or Framework 4.8).
 - **MySQL** (or another supported SQL database).
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 
@@ -82,12 +82,12 @@ To get a local copy of this project up and running, follow these steps.
    ```
 
 
-## 📖 Usage
+## Usage
 
-### ✔ Running the Application
+### Running the Application
 
 - **Start project:** `Press F5 or click the Start button in Visual Studio`
 
-## 📜 License
+## License
 
 All rights reserved. This project is for educational purposes only and cannot be used or distributed without permission.
